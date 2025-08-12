@@ -1,0 +1,12 @@
+.env
+/database/database.sqlite
+.idea/
+.vscode/
+*.swp
+*.swo
+package-lock.json
+node_modules/
+/public/build/
+
+# Ignore vendor if you use Composer (optional, if you add composer later)
+vendor/
