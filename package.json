@@ -1,0 +1,14 @@
+{
+  "name": "core-php-mvc",
+  "version": "1.0.0",
+  "devDependencies": {
+    "tailwindcss": "^4.1.11"
+  },
+  "scripts": {
+    "build": "tailwindcss -i ./app/resources/css/app.css -o ./public/build/css/app.css --minify --content ./app/Views/**/*.php,./app/resources/js/**/*.js",
+    "dev": "tailwindcss -i ./app/resources/css/app.css -o ./public/build/css/app.css --watch --content ./app/Views/**/*.php,./app/resources/js/**/*.js"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11"
+  }
+}
